@@ -16,7 +16,7 @@ export default function Cart() {
     } = useCart();
 
     if(isEmpty){
-        return <h1 className='fs-bold text-center'>Your Cart is Empty</h1>
+        return <h1 className='fs-bold text-center mt-3'>Your Cart is Empty</h1>
     }
 
   return (
